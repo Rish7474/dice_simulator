@@ -3,7 +3,7 @@ from math import floor
 from random import randint
 dice_vals = []
 dice_num = int(input("How many die are you rolling? "))
-expected_snake_eyes = dice_num/36
+expected_snake_eyes = dice_num/36 #1/36 is the probabilty of getting 1 snake eyes
 print("Expected number of snake eyes: ",expected_snake_eyes)
 snake_eyes = 0
 for x in range(dice_num):
