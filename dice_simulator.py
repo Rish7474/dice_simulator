@@ -8,7 +8,7 @@ print("Expected number of snake eyes: ",expected_snake_eyes)
 snake_eyes = 0
 for x in range(dice_num):
     dice_vals.append(randint(1,6))
-    #print("You rolled a",dice_vals[x])
     if x > 0 and dice_vals[x-1] + dice_vals[x] == 2:
         snake_eyes+=1
+print("You rolled the following value(s): ",dice_vals)
 print("Number of snake eyes: ",snake_eyes)
